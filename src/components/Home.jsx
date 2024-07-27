@@ -166,19 +166,19 @@ const Home = () => {
                                         </Link>
                                     </Col>
                                     <Col md={4}>
-                                        <Link to="https://maa-laxmi-dashboard-mainnet.vercel.app/" target="_blank">
+                                        <Link to="https://tito-token.vercel.app/" target="_blank">
                                             <div className="projects">
                                                 <div className="box">
                                                     {/* <img src="images/mrmint.png"/> */}
                                                     <iframe
-                                                        src="https://maa-laxmi-dashboard-mainnet.vercel.app"
+                                                        src="https://tito-token.vercel.app"
                                                         width="100%"
                                                         height="200"
                                                         style={{ border: 'none' }}
-                                                        title="Maa Laxmi token"
+                                                        title="Tito Token"
                                                     />
-                                                    <h3>Maa Laxmi token</h3>
-                                                    <p>Project: Maa Laxmi token</p>
+                                                    <h3>Tito Token</h3>
+                                                    <p>Project: Tito Token</p>
                                                     <p>Role: Blockchain and full stack developer</p>
                                                     <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
 
