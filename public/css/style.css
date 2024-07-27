@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font: 'Lexend Deca', sans-serif;
+}
+body{
+    font-family: var(--font);
+}
+body a{
+text-decoration: none;
+color: #000;
+}
+section{
+    padding: 40px 0;
+}
+a.navbar-brand {
+    font-family: 'Lexend Deca';
+    font-weight: 600;
+    font-size: 25px;
+}
+.my-discription{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.my-discription{
+    align-items: center;
+    /* padding: 40px; */
+}
+.my-discription h1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 0;
+ }
+ .my-discription p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+ }
+.my-discription h1 span{
+color:#15c0f0;
+}
+.my-discription h2{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 10px 0;
+}
+header .navbar{
+    padding: 16px;
+}
+.my-picture img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+}
+.my-picture .pro-pic{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.my-picture .pro-pic .harsh {
+    position: absolute;
+    left: 80px;
+    top: 0;
+    padding: 20px;
+}
+.my-img {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 95px;
+    top: 27px;
+    padding: 10px;
+}
+.harsh-img {
+    /* background-image: url(../images/kuni-anime.jpg); */
+    height: 100%;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.my-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+/* .my-links ul li .list-item {
+    height: 38px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.my-links ul li .list-item i {
+    color: #fff;
+    font-size: 30px;
+}
+.my-links ul{
+    padding: 0;
+    margin: 0;
+}
+.home-btn button {
+    font-family: 'Lexend Deca';
+    margin-top: 10px;
+    background-color: #000;
+    border-color: #000;
+    padding: 10px 20px;
+    border-radius: 26px;
+    font-size: 18px;
+}
+.home-btn button i{
+    margin: 5px;
+}
+.light-bg{
+    background: #fafafa;
+}
+.projects .box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+}
+.projects {
+    /* padding: 10px; */
+}
+
+.projects .box img{
+    height: 200px;
+    width: 100%;
+    filter: blur(1.5px);
+    object-fit: cover;
+}
+.projects-box {
+    margin: 10px 100px;
+    padding-top: 30px;
+}
+.projects .box h3 {
+    margin-top: 14px;
+    font-size: 22px;
+    font-family: var(--font);
+}
+.projects .box p{
+   font-size: 14px;
+   font-family: var(--font);
+}
+.main-heading {
+    font-family: var(--font);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 30px;
+}
+.main-heading::before {
+    content: "";
+    position: absolute;
+    background-color: #15c0f0;
+    height: 2px;
+    width: 160px;
+    bottom: -13px;
+    left: 44%;
+}
+
+.my-skills .box h3{
+    font-family: var(--font);
+    font-size: 20px;
+}
+.my-skills .box p{
+    font-size: 18px;
+}
