@@ -49,7 +49,7 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
-            <section className="light-bg">
+            {/* <section className="light-bg">
                 <Container>
                     <Row>
                         <Col md={12}>
@@ -62,7 +62,7 @@ const Home = () => {
                                         <Link to="https://mrmint.io/" target="_blank">
                                             <div className="projects">
                                                 <div className="box">
-                                                    {/* <img src="images/mrmint.png"/> */}
+                                                    
                                                     <iframe
                                                         src="https://mrmint.io"
                                                         width="100%"
@@ -83,7 +83,6 @@ const Home = () => {
                                         <Link to="https://equalizer.exchange/" target="_blank">
                                             <div className="projects">
                                                 <div className="box">
-                                                    {/* <img src="images/mrmint.png"/> */}
                                                     <iframe
                                                         src="https://equalizer.exchange"
                                                         width="100%"
@@ -104,7 +103,6 @@ const Home = () => {
                                         <Link to="https://dappwin.io/" target="_blank">
                                             <div className="projects">
                                                 <div className="box">
-                                                    {/* <img src="images/mrmint.png"/> */}
                                                     <iframe
                                                         src="https://dappwin.io"
                                                         width="100%"
@@ -127,7 +125,6 @@ const Home = () => {
                                         <Link to="https://artfungible.io/" target="_blank">
                                             <div className="projects">
                                                 <div className="box">
-                                                    {/* <img src="images/mrmint.png"/> */}
                                                     <iframe
                                                         src="https://artfungible.io"
                                                         width="100%"
@@ -148,7 +145,6 @@ const Home = () => {
                                         <Link to="https://sportsmint.io/" target="_blank">
                                             <div className="projects">
                                                 <div className="box">
-                                                    {/* <img src="images/mrmint.png"/> */}
                                                     <iframe
                                                         src="https://sportsmint.io"
                                                         width="100%"
@@ -169,7 +165,6 @@ const Home = () => {
                                         <Link to="https://tito-token.vercel.app/" target="_blank">
                                             <div className="projects">
                                                 <div className="box">
-                                                    {/* <img src="images/mrmint.png"/> */}
                                                     <iframe
                                                         src="https://tito-token.vercel.app"
                                                         width="100%"
@@ -200,7 +195,387 @@ const Home = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
+
+            <section className="light-bg">
+    <Container>
+        <Row>
+            <Col md={12}>
+                <div className="my-work">
+                    <h2 className="main-heading">My latest projects</h2>
+                </div>
+                <div className="projects-box">
+                    <Row>
+                        <Col md={4}>
+                            <Link to="https://mrmint.io/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://mrmint.io"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Mr Mint Project"
+                                        />
+                                        <h3>Mr Mint</h3>
+                                        <p>Project: MrMint ICO Platform </p>
+                                        <p>Role: Blockchain and Web3 developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://equalizer.exchange/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://equalizer.exchange"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Equalizer Exchange"
+                                        />
+                                        <h3>Equalizer Exchange</h3>
+                                        <p>Project: Equalizer Exchange</p>
+                                        <p>Role: Blockchain and Web3 developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://dappwin.io/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://dappwin.io"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Dapp win"
+                                        />
+                                        <h3>Dapp Win</h3>
+                                        <p>Project: Dapp Win</p>
+                                        <p>Role: Blockchain and full stack developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                    </Row>
+                    <Row className="mt-4">
+                        <Col md={4}>
+                            <Link to="https://artfungible.io/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://artfungible.io"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Art Fungible"
+                                        />
+                                        <h3>Art Fungible</h3>
+                                        <p>Project: Art fungible NFT Marketplace</p>
+                                        <p>Role: Blockchain and full stack developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://sportsmint.io/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://sportsmint.io"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Sports mint"
+                                        />
+                                        <h3>Sports Mint</h3>
+                                        <p>Project: Sports mint NFT fantasy game</p>
+                                        <p>Role: Blockchain and full stack developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://tito-token.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://tito-token.vercel.app"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Tito Token"
+                                        />
+                                        <h3>Tito Token</h3>
+                                        <p>Project: Tito Token</p>
+                                        <p>Role: Blockchain and full stack developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                    </Row>
+
+                    {/* New Row for Additional Projects */}
+                    <Row className="mt-4">
+                        <Col md={4}>
+                            <Link to="https://musioo-nino.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://musioo-nino.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Musioo Nino"
+                                        />
+                                        <h3>Musioo Nino</h3>
+                                        <p>Project: Musioo Nino</p>
+                                        <p>Role: Full stack developer</p>
+                                        <p>Tech used: React.js, Node.js, MongoDB</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://bitcoinverse.tech/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://bitcoinverse.tech/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Bitcoin Verse"
+                                        />
+                                        <h3>Bitcoin Verse</h3>
+                                        <p>Project: Bitcoin Verse</p>
+                                        <p>Role: Blockchain developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://aavvee-clone.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://aavvee-clone.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Aavvee Clone"
+                                        />
+                                        <h3>Aavvee Clone</h3>
+                                        <p>Project: Aavvee Clone</p>
+                                        <p>Role: Full stack developer</p>
+                                        <p>Tech used: React.js, Node.js, MongoDB</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                    </Row>
+                    <Row className="mt-4">
+                        <Col md={4}>
+                            <Link to="https://uniswap-sumobot-dapp.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://uniswap-sumobot-dapp.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Uniswap Sumobot Dapp"
+                                        />
+                                        <h3>Uniswap Sumobot Dapp</h3>
+                                        <p>Project: Uniswap Sumobot Dapp</p>
+                                        <p>Role: Blockchain developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://btc-prediction-dapp.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://btc-prediction-dapp.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="BTC Prediction Dapp"
+                                        />
+                                        <h3>BTC Prediction Dapp</h3>
+                                        <p>Project: BTC Prediction Dapp</p>
+                                        <p>Role: Blockchain developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://multi-wallet-notepad.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://multi-wallet-notepad.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Multi Wallet Notepad"
+                                        />
+                                        <h3>Multi Wallet Notepad</h3>
+                                        <p>Project: Multi Wallet Notepad</p>
+                                        <p>Role: Full stack developer</p>
+                                        <p>Tech used: React.js, Node.js, MongoDB</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                    </Row>
+                    <Row className="mt-4">
+                        <Col md={4}>
+                            <Link to="https://bidex-admin-harsh.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://bidex-admin-harsh.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Bidex Admin"
+                                        />
+                                        <h3>Bidex Admin</h3>
+                                        <p>Project: Bidex Admin</p>
+                                        <p>Role: Full stack developer</p>
+                                        <p>Tech used: React.js, Node.js, MongoDB</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://uniswap-sumobot-dapp.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://uniswap-sumobot-dapp.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Uniswap Sumobot Dapp"
+                                        />
+                                        <h3>Uniswap Sumobot Dapp</h3>
+                                        <p>Project: Uniswap Sumobot Dapp</p>
+                                        <p>Role: Blockchain developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://bet-bitcoin.ai/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://bet-bitcoin.ai/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Bet Bitcoin"
+                                        />
+                                        <h3>Bet Bitcoin</h3>
+                                        <p>Project: Bet Bitcoin</p>
+                                        <p>Role: Blockchain developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                    </Row>
+                    <Row className="mt-4">
+                        <Col md={4}>
+                            <Link to="https://www.stakeharvest.com/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://www.stakeharvest.com/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Stake Harvest"
+                                        />
+                                        <h3>Stake Harvest</h3>
+                                        <p>Project: Stake Harvest</p>
+                                        <p>Role: Blockchain developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://vne.network/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://vne.network/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="VNE Network"
+                                        />
+                                        <h3>VNE Network</h3>
+                                        <p>Project: VNE Network</p>
+                                        <p>Role: Blockchain developer</p>
+                                        <p>Tech used: Solidity, Web3.js, React.js, Node.js, MySQL database</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col md={4}>
+                            <Link to="https://bharat-network.vercel.app/" target="_blank">
+                                <div className="projects">
+                                    <div className="box">
+                                        <iframe
+                                            src="https://bharat-network.vercel.app/"
+                                            width="100%"
+                                            height="200"
+                                            style={{ border: 'none' }}
+                                            title="Bharat Network"
+                                        />
+                                        <h3>Bharat Network</h3>
+                                        <p>Project: Bharat Network</p>
+                                        <p>Role: Full stack developer</p>
+                                        <p>Tech used: React.js, Node.js, MongoDB</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                    </Row>
+                </div>
+            </Col>
+        </Row>
+        <Row>
+            <Col md={12}>
+                <div className="additional-projects">
+                    <h3>
+                        I've also worked on numerous admin panels and other unlisted projects, demonstrating my versatility and adaptability across various blockchain applications.
+                    </h3>
+                </div>
+            </Col>
+        </Row>
+    </Container>
+</section>
+
             <section className="light-bg">
                 <Container>
                     <Row>
